@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+# ignore binaries
+*.tar
+*.zip
+minikube-linux-amd64
+*.bin
+*.exe
+
+# ignore build & target
+target/
+*.jar
